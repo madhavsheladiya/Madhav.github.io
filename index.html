@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Madhav Sheladiya" />
+    <!-- Keyword Metadata -->
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <!-- Webpage Title -->
+    <title>Madhavkumar Sheladiya</title>
+
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body onload="openCity(event,'London') ">
+      <div id="particles-js">
+          <div class="header">
+              <h1>
+                  <span class="site-title">Madhavkumar Sheladiya</span>
+                  <span class="site-description">Software Developer • Web Developer • Analyst</span>
+              </h1>
+              <div class="header-icons">
+                  <a aria-label="My LinkedIn Profile" target="_blank" href="https://www.linkedin.com/in/madhav-sheladiya/">
+                      <i class="icon fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                  <a aria-label="My Github Profile" target="_blank" href="https://github.com/madhavsheladiya">
+                      <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+                  </a>
+                  <a aria-label="My Résumé" target="_blank" href="./assets/Madhav_Resume.pdf">
+                      <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
+                  </a>
+                  <a aria-label="Send Email" href="mailto:madhavsheladiya@gmail.com" target="_blank">
+                      <i class="icon fa fa-envelope"></i>
+                  </a>
+              </div>
+
+              <div class="tab">
+                  <button class="tablinks" onclick="openCity(event, 'London')" href="#about" data-scroll>About Me</button>
+                  <button class="tablinks" onclick="openCity(event, 'Paris')" href="#projects" data-scroll>Projects</button>
+                  <button class="tablinks" onclick="openCity(event, 'Tokyo')" href="#Tokyo" data-scroll>Contact Me</button>
+              </div>
+
+              <!--
+            <div class="header-links">
+                <a class="link" href="#about" data-scroll>About Me</a>
+                <a class="link" href="#projects" data-scroll>Projects</a>
+            </div>-->
+          </div>
+      </div>
+
+      <div id="London" class="tabcontent">
+          <!-- About Section -->
+          <section id="about">
+              <!-- User Introduction-->
+              <div class="user-details">
+                  <h1>My Story</h1>
+                  <picture>
+                      <source type="image/webp"
+                              srcset="./assets/img/webp/Professional-Picture-Me.webp"
+                              alt="Professional Me"
+                              width="20%"
+                              style="border-radius: 50%" />
+                      <img src="./assets/img/jpg/Professional-Picture-Me.jpg" height="690"
+                           alt="Professional Me"
+                           width="690"
+                           style="border-radius: 50%" />
+                  </picture>
+                  <p>
+                      I have done internships in the field of both front-end and back-end programming to gain experience. I'm focused on bringing my many skillsets together to solve challenges and create engaging experiences. By studying advanced ideas of computer science and completing projects connected to it, I strengthened my web development, mobile development, design, and analytics skills. I develop websites and applications using HTML, CSS, Android Studio and JavaScript. I am an expert in frameworks such as React, Django and .NET. During my graduate studies, I improved and refined my data analysis skills through research-based projects. As a dedicated, ambitious, and results-oriented individual, I strive to achieve the greatest possible outcome in every job I do.
+                  </p>
+              </div>
+
+              <!-- User Specifics -->
+              <div class="user">
+                  <!-- Technology Stack #1: Languages -->
+                  <div class="tech">
+                      <h2>Languages</h2>
+                      <i class="devicon-python-plain colored"></i>
+                      <i class="devicon-java-plain-wordmark colored"></i>
+                      <i class="devicon-csharp-plain colored"></i>
+                      <i class="devicon-javascript-plain colored"></i>
+                      <i class="devicon-c-plain colored"></i>
+                      <i class="devicon-cplusplus-plain colored"></i>
+                  </div>
+
+                  <!-- Technology Stack #2: Front-End -->
+                  <div class="tech">
+                      <h2>Web & Front-End</h2>
+                      <i class="devicon-react-original colored"></i>
+                      <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                      <i class="devicon-html5-plain-wordmark colored"></i>
+                      <i class="devicon-css3-plain-wordmark colored"></i>
+                      <i class="devicon-django-plain-wordmark colored"></i>
+                      <i class="devicon-dot-net-plain-wordmark colored"></i>
+                  </div>
+
+                  <!-- Technology Stack #3: Back-End -->
+                  <div class="tech">
+                      <h2>Back-End</h2>
+                      <i class="devicon-nodejs-plain colored"></i>
+
+                      <i class="devicon-mongodb-plain-wordmark colored"></i>
+                      <i class="devicon-mysql-original-wordmark colored"></i>
+
+                  </div>
+
+                  <!-- Technology Stack #4: Tools -->
+                  <div class="tech">
+                      <h2>Tools</h2>
+                      <i class="devicon-git-plain-wordmark colored"></i>
+                      <i class="devicon-visualstudio-plain colored"></i>
+                      <i class="devicon-github-plain-wordmark colored"></i>
+                      <i class="devicon-jira-plain-wordmark colored"></i>
+
+                  </div>
+              </div>
+          </section>
+      </div>
+
+      <div id="Paris" class="tabcontent">
+
+          <!-- Projects Section -->
+          <section id="projects">
+              <div class="user-details">
+                  <h1>Featured Projects</h1>
+              </div>
+
+              <!-- User Project #1: -->
+              <div class="user-projects">
+                  <div class="images-right">
+                      <picture>
+                          <source type="image/webp" srcset="./assets/img/webp/1.webp" alt="Personal Website" />
+                          <img alt="Personal Website" src="./assets/img/jpg/1.jpg" />
+                      </picture>
+                  </div>
+                  <div class="contents" style="text-align: center">
+                      <h3>Web Serarch Engine    </h3>
+                      
+                      <p style="text-align: justify">
+                          Applied knowledge of JAVA language and built Web Search Engine with features such as web crawling, pattern matching, page sorting, word suggestion, spell checking and spell correction. Implemented all features using URL crawling, Merge sort, Edit Distance and Knuth-Morris-Pratt algorithm.
+                      </p>
+                      <a class="project-link" target="_blank" href="https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fmadhavsheladiya%2FWebSearchEngine-ACC-main&sa=D&sntz=1&usg=AOvVaw1vZ47Yt8rI4t35uvDptpTx">GitHub</a>
+                  </div>
+              </div>
+
+              <!-- User Project #2: -->
+              <div class="user-projects">
+                  <div class="images-left">
+                      <picture>
+                          <source type="image/webp" srcset="./assets/img/webp/2.webp" alt="Perpetual Crusades" />
+                          <img alt="Perpetual Crusades" src="./assets/img/jpg/2.jpg" />
+                      </picture>
+                  </div>
+                  <div class="contents-right" style="text-align: center">
+                      <h3>Sidekick (Android Application)</h3>
+                      <p style="text-align: justify">
+                          I developed a user-centric app for Windsor newcomers using Android Studio and MongoDB. By implementing Agile Scrum methodology, I arranged weekly client meetings and integrated essential services features seamlessly. Through integration and performance testing, along with manual test cases, I ensured the app's reliability. This resulted in a 25% increase in user satisfaction.
+                      </p>
+                      <a class="project-link" target="_blank" href="https://github.com/madhavsheladiya/Sidekick">GitHub</a>
+                  </div>
+              </div>
+
+              <!-- User Project #3: -->
+              <div class="user-projects">
+                  <div class="images-right">
+                      <picture>
+                          <source type="image/webp" srcset="./assets/img/webp/3.webp" alt="COVID-19 Tracker App" />
+                          <img alt="COVID-19 Tracker App" src="./assets/img/jpg/3.jpg" />
+                      </picture>
+                  </div>
+                  <div class="contents" style="text-align: center">
+                      <h3>Relational Analysis of Sales Data (Research-based)</h3>
+                      <p style="text-align: justify">
+                          I optimized cluster count using Elbow and Silhouette techniques with K-means, improving analysis accuracy by 20%. Deployed Truncated SVD for dimensionality reduction and utilized Pearson correlation to uncover significant correlations, enhancing data-driven decision-making by 30%.
+                      </p>
+                      <a class="project-link" target="_blank" href="https://github.com/madhavsheladiya/Analysis-on-Black-Friday-Sales-">
+                          GitHub
+                      </a>
+                  </div>
+              </div>
+
+              <!-- Use Project #4: -->
+              <div class="user-projects">
+                  <div class="images-left">
+                      <picture>
+                          <source type="image/webp"
+                                  srcset="./assets/img/webp/4.webp"
+                                  alt="Valuto: Account Management System" />
+                          <img alt="Valuto: Account Management System" src="./assets/img/jpg/4.jpg" />
+                      </picture>
+                  </div>
+                  <div class="contents-right" style="text-align: center">
+                      <h3>ToDo Application</h3>
+                      <p style="text-align: justify">
+
+                          I seamlessly integrated a razor increment counter component into a .Net class, resulting in a 30% increase in user engagement. Additionally, I constructed a feature-rich ToDo List page, showcasing my expertise in data binding and event handling in .Net.
+                      </p>
+                      <a class="project-link" target="_blank" href="https://github.com/madhavsheladiya/MyApp_Dotnet">
+                          GitHub
+                      </a>
+                  </div>
+              </div>
+              <!-- User Project #5: -->
+              <div class="user-projects">
+                  <div class="images-right">
+                      <picture>
+                          <source type="image/webp" srcset="./assets/img/webp/5.webp" alt="COVID-19 Tracker App" />
+                          <img alt="COVID-19 Tracker App" src="./assets/img/jpg/5.jpg" />
+                      </picture>
+                  </div>
+                  <div class="contents" style="text-align: center">
+                      <h3>Social Network Analysis: Gaming Community during Covid-19(Research-based)</h3>
+                      <p style="text-align: justify">
+
+                          Performed Social Network analysis with a team to understand the growth of the gaming community during the Covid-19 lockdown. Scrapped data including three hashtags #csgo, #pubg and #gaming from Twitter using Twitter API for academic research Utilized R language to perform analysis on gathered data and K-clique technique to discover communities over a specific period. Accumulated data from the Steam gaming platform and uncovered trends of in game and online users through Microsoft Excel.
+                      </p>
+                      <a class="project-link" target="_blank" href="https://github.com/madhavsheladiya/GamingSocialNetworkAnalysis">
+                          GitHub
+                      </a>
+                  </div>
+              </div>
+          </section>
+      </div>
+
+      <div id="Tokyo" class="tabcontent">
+              <div class="container">
+                  <h1>Contact Me</h1>
+                  <form id="contactForm" onsubmit="sendMessage(event)">
+                      <div class="form-group">
+                          <label for="name">Name:</label>
+                          <input type="text" id="name" required>
+                          <div id="nameError" class="error"></div>
+                      </div>
+                      <div class="form-group">
+                          <label for="email">Email Address:</label>
+                          <input type="email" id="email" required>
+                          <div id="emailError" class="error"></div>
+                      </div>
+                      <div class="form-group">
+                          <label for="message">Message:</label>
+                          <textarea id="message" rows="5" required></textarea>
+                          <div id="messageError" class="error"></div>
+                      </div>
+                      <div class="form-group">
+                          <input type="submit" value="Submit">
+                      </div>
+                  </form>
+              </div>
+
+      </div>
+      <link rel="stylesheet" href="./assets/css/tab.css" />
+
+      <script>
+          function openCity(evt, cityName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                  tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                  tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(cityName).style.display = "block";
+              evt.currentTarget.className += " active";
+          }
+      </script>
+      <link rel="stylesheet" href="./assets/css/form.css" />
+
+      <script>
+          function sendMessage(event) {
+              event.preventDefault();
+
+              // Clear previous error messages
+              document.getElementById("nameError").textContent = "";
+              document.getElementById("emailError").textContent = "";
+              document.getElementById("messageError").textContent = "";
+
+              // Get form values
+              const name = document.getElementById("name").value;
+              const email = document.getElementById("email").value;
+              const message = document.getElementById("message").value;
+
+              // Validate form fields
+              if (!name) {
+                  document.getElementById("nameError").textContent = "Name is required";
+                  return;
+              }
+              if (!email) {
+                  document.getElementById("emailError").textContent = "Email is required";
+                  return;
+              }
+              if (!message) {
+                  document.getElementById("messageError").textContent = "Message is required";
+                  return;
+              }
+
+              // Display success message and reset form
+              document.getElementById("contactForm").reset();
+              alert("Message sent!");
+          }
+      </script>
+
+
+
+      <footer class="footer">
+          <p>&copy; Madhavkumar Sheladiya, 2023</p>
+      </footer>
+
+      <!-- Import JS: Particles Theme -->
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <!-- Import JS: Sweet Scroll -->
+      <script src="./assets/js/sweet-scroll.min.js"></script>
+      <!-- Import JS: Google Analytics -->
+      <script src="./assets/js/google-analytics.js"></script>
+      <!-- Import JS: Main Script -->
+      <script src="./assets/js/main.js"></script>
+  </body>
+</html>
